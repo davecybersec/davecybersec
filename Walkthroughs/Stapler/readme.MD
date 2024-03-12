@@ -26,7 +26,7 @@ We'll focus on 39772, which allows unprivileged code to execute via the bpf() sy
 If we read the exploit, there's a link at the bottom. We need to paste this into our browser to download all of the files needed for the exploit.
 ![Exploit Link](images/exploitlink.png)
 
-We can use Apache or start another simpleHTTP web server on our machine and use wget on the target to pull over the archive, where we can then unzip it and run the exploit.
+We can use Apache or start another simpleHTTP web server on our Kali machine and use wget on the target to pull over the archive, where we can then unzip it and run the exploit.
 
 Once we have the file on our target machine, we need to add executable permissions to the compile.sh file (otherwise we will not be able to run it). Once that is complete, we can run this file to compile the exploit.
 ![Compile](images/compile.png)
