@@ -15,4 +15,4 @@ There's a lot to dig into here, but let's grab the low hanging fruit first.
 Anonymous FTP is my first choice. Can you log in anonymously? If so, what will we find stored on this server.
 Let's see.
 
-![Anymous FTP Connection]("/images/Anonymous FTP.png")
+![Anymous FTP Connection](/images/AnonymousFTP.png)
