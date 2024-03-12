@@ -21,3 +21,15 @@ We SSH onto the target. Let's take a look at what this machine is running in ter
 Back over to Kali, let's see if we can find a usable exploit for this OS version.
 ![Searchsploit](images/searchsploit.png)
 
+We'll focus on 39772, which allows unprivileged code to execute via the bpf() syscall.
+
+If we read the exploit, there's a link at the bottom. We need to paste this into our browser to download all of the files needed for the exploit.
+![Exploit Link](images/exploitlink.png)
+
+We can use Apache or start another simpleHTTP web server on our machine and use wget on the terget to pull over the archive, where we can then unzip it and run the exploit.
+
+Once we have the file on our target machine, we need to add executable permissions to the compile.sh file (otherwise we will not be able to run it). Once that is complete, we can run this file to compile the exploit.
+![Compile](images/compile.png)
+
+doubleput is the file we're looking for here, this contains the exploit. All we have to do now is execute this binary and after a few seconds the binart is able to get a pointer. About a minute after writenv is returned we have root access on the target.
+![Privilege Escalation](images/exploit.png)
