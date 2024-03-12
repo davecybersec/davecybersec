@@ -1,4 +1,9 @@
 #!/usr/bin/python3
+'''
+Python-based Ransomware POC
+Author: David Probert
+This script is for educational purposes only. Malicious use of this script is prohibited.
+'''
 import os
 from cryptography.fernet import Fernet
 
