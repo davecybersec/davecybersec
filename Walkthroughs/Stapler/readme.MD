@@ -31,5 +31,5 @@ We can use Apache or start another simpleHTTP web server on our machine and use 
 Once we have the file on our target machine, we need to add executable permissions to the compile.sh file (otherwise we will not be able to run it). Once that is complete, we can run this file to compile the exploit.
 ![Compile](images/compile.png)
 
-doubleput is the file we're looking for here, this contains the exploit. All we have to do now is execute this binary and after a few seconds the binart is able to get a pointer. About a minute after writenv is returned we have root access on the target.
+doubleput is the file we're looking for here, this contains the exploit. All we have to do now is execute this binary, and after a few seconds the binary is able to get a pointer. About a minute after writenv is returned, we have root access on the target.
 ![Privilege Escalation](images/exploit.png)
