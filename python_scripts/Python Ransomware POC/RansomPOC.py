@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 '''
+Copyright (C) 2024
 Python-based Ransomware POC
 Author: David Probert
 This script is for educational purposes only. Malicious use of this script is prohibited.
