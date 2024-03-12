@@ -12,4 +12,7 @@ Let's see.
 
 I found a note file on the server, which provides me with a couple of usernames (Elly and John).
 
-ports
+The next thing I'll do is take a look at the web site. I get an error that the resource was not found. So, I'll run gobuster against this site and see if I discover any interesting files / folders.
+Interestingly enough, I see 2 hidden files that typically reside in a Linux user's home folder.
+![Anymous FTP Connection](images/gobuster.png)
+
