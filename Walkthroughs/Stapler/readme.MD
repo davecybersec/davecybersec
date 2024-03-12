@@ -7,7 +7,7 @@ A standard port scan shows several open ports on this machine:
 There's a lot to dig into here, but let's check the SMB ports first (these sometimes give up a lot of juicy info).
 
 If we run enum4linux against the target, it returns a lot of information we can use.
-We get information running services, the workgroup name, available shares, and user IDs / SIDs. We'll put these to use in our next step.
+We get information running services, the workgroup name, available shares, and user IDs / SIDs. We'll put these to use in our next step.<br>
 ![SMB Enumeration](images/enum4l.png)
 
 We can use grep and cut to extract the usernames to a users file, then use that file with Hydra to attempt to discover ssh credentials. Using -e nsr we're telling Hydra to try the username as the password, try an empty password, and try the username in reverse as the password (no wordlists needed).
