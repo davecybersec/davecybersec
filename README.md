@@ -1,4 +1,4 @@
-### Hi there 👋
+Welcome to my github page. This page will serve as more of a blog / knowledge portfolio where I'll share info on Cybersecurity, provacy, OSINT, and CTF walkthroughs.
 
 <!--
 **davecybersec/davecybersec** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
