@@ -1,1 +1,1 @@
-This is a collection of Python scripts I've written. These range from POCs to experimental to ways I found to simplify tasks.
+This is a collection of Python scripts I've written. These range from POCs to experimental to methods I've used to simplify tasks.
