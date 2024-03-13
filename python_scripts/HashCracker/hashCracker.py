@@ -1,14 +1,11 @@
 # -------------------------------------------------------------------------------
-# Name:        BURN
-# Purpose:     SHA / MD5 hash dictionary cracker. BURN takes the hashed input
+# Name:        HashCracker
+# Purpose:     SHA / MD5 hash dictionary cracker. HashCracker takes the hashed input
 # 		   from the file passed to it and guesses the type of hashs in the file.
 #		   Then it attempts a dictionary attack against the hashed strings by hashing
 #		   known passwords from the dictionary file given to it at runtime
-#		   and encoding some of the characters in the file with commonly used #		#   	   	   characters to double the size of the dictionary file.
-#		   Note: The file format for the hash file is one hash per line. BURN will #	#		   attempt to crack each hash it finds in the file.
-#
-#		   Example: An entry of admin in the dictionary file will prompt BURN to also
-#		   try using @dm!n.
+#		   and encoding some of the characters in the file with commonly used characters to double the size of the dictionary file.
+#		   Note: The file format for the hash file is one hash per line.
 #
 # Author:      David Probert
 #
