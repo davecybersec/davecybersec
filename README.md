@@ -3,4 +3,4 @@ Welcome to my github page. This page will serve as more of a blog / knowledge po
 
 <b> Disclaimer: All information on this website is for educational purposes only. Any malicious action taken using the information on this website is strictly prohibited by the author.</b>
 
-<a href="Walkthroughs/Stapler"/>
+<a href="Walkthroughs/Stapler">Stapler Walkthrough</a>
