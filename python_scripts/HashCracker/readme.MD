@@ -3,4 +3,9 @@ This script takes2 text files as input. The first file should contain a hash or 
 This tool supports the following hash types:
 <ul>
 <li>MD5</li>
+<li>SHA1</li>
+<li>SHA224</li>
+<li>SHA256</li>
+<li>SHA384</li>
+<li>SHA512</li>
 </ul>
