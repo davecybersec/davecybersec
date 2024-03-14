@@ -12,4 +12,4 @@ This tool supports the following hash types:
 
 This script requires the hashlib module. You can install it using <b>pip install hashlib</b>
 
-![assets/hashcracker.png]
+![Hashcracker Example](assets/hashcracker.png)
