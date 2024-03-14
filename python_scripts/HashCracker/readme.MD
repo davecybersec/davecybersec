@@ -11,3 +11,5 @@ This tool supports the following hash types:
 </ul>
 
 This script requires the hashlib module. You can install it using <b>pip install hashlib</b>
+
+![hashcracker.png]
