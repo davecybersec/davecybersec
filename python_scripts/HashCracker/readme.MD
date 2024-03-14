@@ -9,3 +9,5 @@ This tool supports the following hash types:
 <li>SHA384</li>
 <li>SHA512</li>
 </ul>
+
+This script requires the hashlib module. You can install it using <b>pip install hashlib</b>
