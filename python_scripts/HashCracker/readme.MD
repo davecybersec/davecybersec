@@ -1,4 +1,4 @@
-This script takes2 text files as input. The first file should contain a hash or list of hashes, the second file can be any wordlist of your choosing. What the script does is iterate through the hashes and discover the hash being used, it then attempts to crack the hashes via the supplied wordlist.
+This script takes 2 text files as input. The first file should contain a hash or list of hashes, the second file can be any wordlist of your choosing. What the script does is iterate through the hashes and discover the hash being used, it then attempts to crack the hashes via the supplied wordlist.
 
 This tool supports the following hash types:
 <ul>
