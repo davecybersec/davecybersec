@@ -1,3 +1,9 @@
+'''
+Copyright (C) 2023
+Password Breach Detection
+Author: David Probert
+'''
+
 import requests
 import hashlib
 import csv
