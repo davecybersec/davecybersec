@@ -1,1 +1,1 @@
-Here I'll post misc. ethical hacking techniques and methodologies.
+Here I'll post misc. ethical hacking techniques and info.
