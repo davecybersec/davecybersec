@@ -1,4 +1,4 @@
-# Using PowerView to gather domain intel
+# Using PowerView to gather domain intel (and take over the domain)
 
 In a previous article titled, DC takeover via Insecure Web Upload, we looked at gaining access to a DC within a domain. What we're about to look at here would be a next step once you have that access and need to gain situational awareness / an understanding of the environment.
 
