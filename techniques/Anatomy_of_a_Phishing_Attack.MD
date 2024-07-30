@@ -33,7 +33,7 @@ The first name can't be found, but they look exactly alike. Only, they are not. 
 
 ![images/15-2.png](images/15-2.png)
 
-Here we see that the second o in the first string has been identified as a non-ascii character.
+Here we see that the second o in the first string has been identified as a non-ascii character. This technique can be used to spoof email addresses or domains without the victim even realizing it.
 
 Now let's get to the fun stuff.
 
