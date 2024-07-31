@@ -8,7 +8,7 @@ Spotting a phishing attack can be tricky, and I won't go into great detail here,
 
 - Correct grammer and spelling in the email is definitely something you want to check for, although with GenAI it is much easier for malicious entities to craft believeable email messages than it used to be.
 - Email header information holds a lot of telling signs. Always pay attention to the From address. An email from AT&T customer services shouldn't come from an address like service@att120321zmurnxt32.com.
-- Additionaly, the Return Path and Reply To addresses should match the From address. If the email is from customerservice@att.com and the reply goes to service@att120321zmurnxt32.com, that's something you efinitely want to verify.
+- Additionaly, the Return Path and Reply To addresses should match the From address. If the email is from customerservice@att.com and the reply goes to service@att120321zmurnxt32.com, that's something you definitely want to verify.
 - If there is a link in the email, hover over it to see the full URL. You can often tell immediately if the link is bogus.
 
 Additionally, you can copy the URL and paste it into one of the tools below to check if the link is associated with a known phishing scam.
