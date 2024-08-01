@@ -75,7 +75,11 @@ If the user clicks our link, they are directed to our webserver, which is servin
 
 ![images/15-10.png](images/15-10.png)
 
-The URL at this point should be an indication that this is not a genuine link, but lots of people miss this. Let's enter credentials.
+The URL at this point should be an indication that this is not a genuine link, but lots of people miss this.
+
+If you receive a shortened URL, you can expand it using https://www.expandurl.net/
+
+Let's enter credentials.
 
 ![images/15-11.png](images/15-11.png)
 
