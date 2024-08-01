@@ -77,7 +77,7 @@ If the user clicks our link, they are directed to our webserver, which is servin
 
 The URL at this point should be an indication that this is not a genuine link, but lots of people miss this.
 
-If you receive a shortened URL, you can expand it using https://www.expandurl.net/
+NOTE: If you receive a shortened URL, before clicking it, you can expand it using https://www.expandurl.net/ to see where it is actually taking you.
 
 Let's enter credentials.
 
