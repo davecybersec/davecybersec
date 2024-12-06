@@ -6,7 +6,9 @@ When a user wants access to a resource hosted on an SPN (Service Principal Name)
 
 Wrong. There's one little problem here. When requesting a ticket, the DC does not check whether the requesting user has any permissions to access the services hosted by the SPN (at least not up front, these checks are performed as a second step when connecting to the actual service). Also, keep in mind that SPN accounts tend to have elevated privileges.
 
-Do you see the problem here? An opportunity for an attacker?
+Do you see the problem here? Do you see an opportunity for an attacker?
+
+There's a huge opportunity for attack here.
 
 If we request a ticket on behalf of a user, the DC will provide the service ticket to us. From here we can extract the hash and potentially crack the password offline, giving us access to the actual service account.
 
