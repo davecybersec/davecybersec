@@ -25,7 +25,7 @@ goоgle.com
 
 google.com
 
-Your eyes are probably bugging out right now, so let me help you out. There is no noticeable difference. However, if you copy and paste these domain names ino your browser or a command line, you will not be able to ping or access one of them. Let's try it.
+Your eyes are probably bugging out right now, so let me help you out. There is no noticeable difference. However, if you copy and paste these domain names into your browser or a command line, you will not be able to ping or access one of them. Let's try it.
 
 ![images/15-1.png](images/15-1.png)
 
