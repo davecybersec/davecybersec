@@ -1,0 +1,1 @@
+This is a bash script that monitors the arp table entry of whatever IP you provide it (usually your gateway IP). It runs until manually stopped and alerts you if it detects any changes in arp table entry for the provided address. This is a helpful tool to detect arp spoofing on a Linux machine. 
