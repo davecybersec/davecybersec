@@ -1,0 +1,1 @@
+﻿This python script takes a URL and scours it for comments. Note, this script only examines the pages passed to it. It does not crawl the site and pull comments from multiple pages...yet. For this script to run you will need to install the BeautifulSoup module.
